@@ -60,7 +60,11 @@
           <groupId>org.junit.platform</groupId>
           <artifactId>junit-platform-launcher</artifactId>
         </dependency>
-	</dependencies>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
